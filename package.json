@@ -1,0 +1,19 @@
+{
+  "name": "learngit",
+  "version": "1.0.0",
+  "description": "设计表 用户表，用户登陆信息表，用户信息表， 角色表，角色权限表 模块权限表，模块表，权限表  user usercheckin useraddress role 中间表：userroles",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liaozhonghui/learngit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liaozhonghui/learngit/issues"
+  },
+  "homepage": "https://github.com/liaozhonghui/learngit#readme"
+}
