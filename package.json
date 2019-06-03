@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/liaozhonghui/learngit/issues"
   },
-  "homepage": "https://github.com/liaozhonghui/learngit#readme"
+  "homepage": "https://github.com/liaozhonghui/learngit#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.8.7"
+  }
 }

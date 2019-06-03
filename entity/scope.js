@@ -1,6 +1,6 @@
 var Sequelize = require("sequelize");
 
-var sequelize = require('./connection.js');
+var sequelize = require('../connection.js');
 const Op = Sequelize.Op;
 var User = require('./User.js')(sequelize, Sequelize);
 var Project = require('./Project')(sequelize, Sequelize, User);

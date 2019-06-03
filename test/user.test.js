@@ -1,10 +1,10 @@
 //模型加载
 var Sequelize = require('sequelize');
-var sequelize = require('./connection.js');
+var sequelize = require('../connection.js');
 const Op = Sequelize.Op;
 
 var User = require('./User.js')(sequelize, Sequelize);
-var UserCheckin = require('./UserCheckin.js')(sequelize, Sequelize);
+var UserCheckin = require('./entity/UserCheckin.js/index.js')(sequelize, Sequelize);
 var UserAddress = require('./UserAddress.js')(sequelize, Sequelize);
 var Role = require('./Role.js')(sequelize, Sequelize);
 
